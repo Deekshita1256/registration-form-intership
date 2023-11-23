@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.error-message {
+    color: #d9534f;
+    margin-top: 5px;
+}
+
+/* Your existing CSS styles */
+
+/* New styles for labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Style for displaying validation messages */
+.error-message {
+    color: #d9534f;
+    margin-top: 5px;
+}
+
+/* Responsive styles for smaller screens (up to 600px) */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    input {
+        margin-bottom: 8px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+/* Responsive styles for larger screens (601px and above) */
+@media screen and (min-width: 601px) {
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    fieldset {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    padding: 0;
+    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background: linear-gradient(180.2deg, rgb(230, 32, 6) 6.8%, rgb(30, 33, 48) 131%);
+    transition: 0.5s;
+    transform: translateY(-2px);
+}
